@@ -1,0 +1,13 @@
+body {
+    display: flex;
+    align-items: center;
+}
+body aside.logo-bar {
+    flex-shrink: 1;
+}
+body > * {
+    flex: 1 1 0;
+}
+body section.form-wrapper {
+    flex-grow: 2;
+}
