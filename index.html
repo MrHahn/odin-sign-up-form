@@ -4,41 +4,59 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Odin Sign Up Form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ga+Maamli&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/styles.css">
 </head>
 <body>
     <aside class="logo-bar">
         <div class="logo-bg">
-            <img src="" alt="odin logo"/>
-            <h2 class="logo-text">ODIN</h2>
+            <img src="assets/images/odin-lined.png" alt="odin logo"/>
+            <h2 class="logo-text ga-maamli-regular">ODIN</h2>
         </div>
     </aside>
     <section class="form-wrapper">
         <div class="form-description">
-            <p>This is not a real online service! you know you need something like this in your life to help you realize your deepest dreams.<span class="text-wrap">Sign up <i>now</i>to get started.</span></p>
+            <p>This is not a real online service! you know you need something like this in your life to help you realize your deepest dreams. <span class="text-wrap">Sign up <i>now</i> to get started.</span></p>
             <p>You <i>know</i> you want to.</p>
         </div>
-        <div class="form-title">
-            <p>Let's do this!</p>
-        </div>
+
         <form action="" method="get">
-            <label for="firstName">First Name</label>
-            <input type="text" id="firstName" name="firstName">
-            <label for="lastName">Last Name</label>
-            <input type="text" id="lastName" name="lastName">
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email">
-            <label for="phone">Phone</label>
-            <input type="tel" id="phone" name="phone">
-            <label for="password">Password</label>
-            <input type="password" id="password" name="password">
-            <label for="password-conf">Confirm Password</label>
-            <input type="password" id="password-conf" name="password-conf">
-            <button type="submit">Create Account</button>
+            <div class="inner-wrap">
+                <p>Let's do this!</p>
+                <div class="form-fields">
+                    <div class="field-item">
+                        <label for="firstName">First Name</label>
+                        <input type="text" id="firstName" name="firstName">
+                    </div>
+                    <div class="field-item">
+                        <label for="lastName">Last Name</label>
+                        <input type="text" id="lastName" name="lastName">
+                    </div>
+                    <div class="field-item">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email">
+                    </div>
+                    <div class="field-item">
+                        <label for="phone">Phone</label>
+                        <input type="tel" id="phone" name="phone">
+                    </div>
+                    <div class="field-item">
+                        <label for="password">Password</label>
+                        <input type="password" id="password" name="password">
+                    </div>
+                    <div class="field-item">
+                        <label for="password-conf">Confirm Password</label>
+                        <input type="password" id="password-conf" name="password-conf">
+                    </div>
+                </div>
+            </div>
+            <div class="log-in">
+                <button type="submit">Create Account</button>
+                <p>Already have an account? <a href="">Log in</a></p>
+            </div>
         </form>
-        <div class="log-in">
-            <p>Already have an account? <a href="">Log in</a></p>
-        </div>
     </section>
 </body>
 </html>
